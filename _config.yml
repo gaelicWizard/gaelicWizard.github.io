@@ -24,11 +24,21 @@ twitter_username: gaelicWizard
 github_username:  gaelicWizard
 google_analytics: G-3B8KRF0H7B
 
+collections:
+  jobs:
+    sort_by: endDate
+  clients:
+    sort_by: endDate
+  projects:
+    sort_by: date
+  degrees:
+    sort_by: date
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-slate
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 kramdown:
   parse_block_html: true
