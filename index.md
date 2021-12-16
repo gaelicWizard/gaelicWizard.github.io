@@ -8,8 +8,15 @@ Experienced systems architect seeking forward-looking position to drive adoption
 ### Operator, Mayflower IS&T; Pasadena, CA – 2018—2021
 As founder and principal of Mayflower, I collected requirements, designed solutions, and implemented deliverables at every layer of the IT stack for small medical practices in radiology and cardiology. Along with my team of two engineers, we supported and deployed Active Directory with Windows Hello, Azure AD with MFA and cloud password protection, Office 365, Mobile Device Management (Intune) for iOS and Mac, Remote Desktop Services for external access when necessary and Azure Application Proxy when possible, Google Workspace with SSO through Azure AD SAML, Hyper-V clusters with shared and converged storage, 3rd party application servers, Exchange Hybrid and Exchange Online, SharePoint Online, OneDrive for Business to replace Windows Roaming Profiles, Microsoft Teams, and more. We alsö leveraged Azure Log Analytics solutions for Desktop Analytics and Update Readiness, and were beginning Azure Sentinel.
 
-### Imaging Network Engineer, [Binovia Corp]( https://binovia.com ); Chino, CA – 2014—2018
-Support for “full stack IT” for small medical practices in radiology and cardiology, including everything from printer configuration through Active Directory management, network design, VPN implementation, and 3rd party application integration.
+<ul>
+  {% for job in site.jobs reversed %}
+    <li>
+      <h3 id="{{ job.url | split: '/' | last | split: '.' | first }}"><a href="{{ job.link }}">{{ job.employer }}</a></h3>
+      <a href="{{ job.detailLink }}">{{ job.title }}</a>, <time datetime="{{ job.date }}">{{ job.date | date: "%Y" }}</time> -- <time datetime="{{ job.endDate }}">{{ job.endDate | date: "%Y" }}</time>
+      {{ job.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
 
 ### Installation Engineer, [Oblong Industries, Inc]( https://oblong.com/ ); Los Angeles, CA – 2012
 Deployed [Mezzanine™]( https://vimeo.com/34861262 ) multi-user, multi-screen, multi-device room collaboration system.
