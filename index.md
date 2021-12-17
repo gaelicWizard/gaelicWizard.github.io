@@ -15,9 +15,6 @@ Experienced systems architect seeking forward-looking position to drive adoption
   {% endfor %}
 </ul>
 
-### [Mac Genius™]( https://apple.com/retail/geniusbar/ ), [Apple Inc]( https://apple.com ); Rancho Cucamonga, CA – 2005–2009
-Repair and user support for Apple devices: Mac, iPhone, &c.
-
 ## Education
 <ul>
   {% for degree in site.degrees reversed %}
