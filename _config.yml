@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdp.cx" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gaelicWizard
 github_username:  gaelicWizard
+linkedin_username: gaelicWizard
 google_analytics: G-3B8KRF0H7B
 
 collections:
