@@ -22,6 +22,16 @@ Deployed [Mezzanine™]( https://vimeo.com/34861262 ) multi-user, multi-screen, 
 Repair and user support for Apple devices: Mac, iPhone, &c.
 
 ## Education
+<ul>
+  {% for degree in site.degrees reversed %}
+    <li>
+      <h3 id="{{ degree.url | split: '/' | last | split: '.' | first }}"><a href="{{ degree.link }}">{{ degree.institution }}</a></h3>
+      <a href="{{ degree.detailLink }}">{{ degree.title }}</a>, <time datetime="{{ degree.date }}">{{ degree.date | date: "%Y" }}</time>
+      {{ degree.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
 ### [Roger William University]( https://law.rwu.edu/ ); Bristol, RI – [Juris Doctor]( https://law.rwu.edu/academics/juris-doctor ), 2012
 ### [University of California]( https://ucr.edu/ ); Riverside, CA – [Bachelor of Arts / Law & Philosophy]( https://philosophy.ucr.edu/undergraduate-program ), 2009
 
