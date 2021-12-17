@@ -15,9 +15,6 @@ Experienced systems architect seeking forward-looking position to drive adoption
   {% endfor %}
 </ul>
 
-### Installation Engineer, [Oblong Industries, Inc]( https://oblong.com/ ); Los Angeles, CA – 2012
-Deployed [Mezzanine™]( https://vimeo.com/34861262 ) multi-user, multi-screen, multi-device room collaboration system.
-
 ### [Mac Genius™]( https://apple.com/retail/geniusbar/ ), [Apple Inc]( https://apple.com ); Rancho Cucamonga, CA – 2005–2009
 Repair and user support for Apple devices: Mac, iPhone, &c.
 
