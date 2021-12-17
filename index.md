@@ -33,7 +33,6 @@ Repair and user support for Apple devices: Mac, iPhone, &c.
 </ul>
 
 ### [Roger William University]( https://law.rwu.edu/ ); Bristol, RI – [Juris Doctor]( https://law.rwu.edu/academics/juris-doctor ), 2012
-### [University of California]( https://ucr.edu/ ); Riverside, CA – [Bachelor of Arts / Law & Philosophy]( https://philosophy.ucr.edu/undergraduate-program ), 2009
 
 ## Skills
 Extensive experience with Active Directory Domain Services + Certificate Services, Azure Active Directory, Azure MFA, Azure Application Proxy, Azure Information Protection, Microsoft Defender for Endpoint, Windows client and server deployment, Group Policy Management, Remote Desktop Services, Google Workspace (“G Suite”), Microsoft Endpoint Manager (Intune), Hyper-V, Windows Failover Clustering, and VMware vSphere ESXi, as well as core technologies including TPM, Virtualization-based Security, Kerberos, Group Managed Service Accounts, and related.
