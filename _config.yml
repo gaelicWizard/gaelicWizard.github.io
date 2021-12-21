@@ -34,6 +34,8 @@ collections:
     sort_by: date
   degrees:
     sort_by: date
+  certifications:
+    sort_by: date
 
 # Build settings
 markdown: kramdown

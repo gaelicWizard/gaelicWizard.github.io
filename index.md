@@ -26,6 +26,18 @@ Experienced systems architect seeking forward-looking position to drive adoption
   {% endfor %}
 </ul>
 
+## Certifications
+<ul>
+  {% for certification in site.certifications reversed %}
+    <li>
+      <h3 id="{{ certification.url | split: '/' | last | split: '.' | first }}"><a href="{{ certification.link }}">{{ certification.certifier }}</a></h3>
+      <a href="{{ certification.detailLink }}">{{ certification.title }}</a>, <time datetime="{{ certification.date }}">{{ certification.date | date: "%Y" }}</time>
+      {{ certification.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+
 ## Skills
 Extensive experience with Active Directory Domain Services + Certificate Services, Azure Active Directory, Azure MFA, Azure Application Proxy, Azure Information Protection, Microsoft Defender for Endpoint, Windows client and server deployment, Group Policy Management, Remote Desktop Services, Google Workspace (“G Suite”), Microsoft Endpoint Manager (Intune), Hyper-V, Windows Failover Clustering, and VMware vSphere ESXi, as well as core technologies including TPM, Virtualization-based Security, Kerberos, Group Managed Service Accounts, and related.
 
