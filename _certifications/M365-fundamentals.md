@@ -8,5 +8,12 @@ link: https://docs.microsoft.com/en-us/learn/certifications/microsoft-365-fundam
 asset: /assets/Microsoft_Certified_Professional_Certificate_0.pdf
 detailLink: https://credly.com/badges/c9ccfe3c-3550-4263-8ecc-794f2ae4f933
 tags: 
+ - Cloud Services
+ - Compliance
  - Microsoft 365
+ - Microsoft Cloud Services
+ - Office 365
+ - Security
+ - Teamwork
+ - Windows 10
 ---
