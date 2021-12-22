@@ -5,7 +5,8 @@ track: Microsoft 365 Certified
 level: Fundamentals
 title: ""
 link: https://docs.microsoft.com/en-us/learn/certifications/microsoft-365-fundamentals
-detailLink: /assets/Microsoft_Certified_Professional_Certificate_0.pdf
+asset: /assets/Microsoft_Certified_Professional_Certificate_0.pdf
+detailLink: https://credly.com/badges/c9ccfe3c-3550-4263-8ecc-794f2ae4f933
 tags: 
  - Microsoft 365
 ---
