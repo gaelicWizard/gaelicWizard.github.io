@@ -1,5 +1,7 @@
 ---
 title: Résumé
+tags:
+ - Modern Device Management
 ---
 
 Experienced systems architect seeking forward-looking position to drive adoption of modern information systems in identity management, server deployment, and device configuration. I believe strongly that the best operations teams are always in motion building small improvements at all levels; stasis breeds complacency and leads to decay. 
@@ -57,5 +59,11 @@ Experienced systems architect seeking forward-looking position to drive adoption
 </ul>
 
 ## Skills
-Extensive experience with Active Directory Domain Services + Certificate Services, Azure Active Directory, Azure MFA, Azure Application Proxy, Azure Information Protection, Microsoft Defender for Endpoint, Windows client and server deployment, Group Policy Management, Remote Desktop Services, Google Workspace (“G Suite”), Microsoft Endpoint Manager (Intune), Hyper-V, Windows Failover Clustering, and VMware vSphere ESXi, as well as core technologies including TPM, Virtualization-based Security, Kerberos, Group Managed Service Accounts, and related.
+{% assign skills = site.tags | concat: site.certifications | concat: site.jobs | concat: site.projects | map: 'tags' | sort | uniq %}
+<ul class="inline">
+  {% for skill in skills %}
+    <li>{{ skill }}</li>
+  {% endfor %}
+</ul>
+<!-- Extensive experience with Active Directory Domain Services + Certificate Services, Azure Active Directory, Azure MFA, Azure Application Proxy, Azure Information Protection, Microsoft Defender for Endpoint, Windows client and server deployment, Group Policy Management, Remote Desktop Services, Google Workspace (“G Suite”), Microsoft Endpoint Manager (Intune), Hyper-V, Windows Failover Clustering, and VMware vSphere ESXi, as well as core technologies including TPM, Virtualization-based Security, Kerberos, Group Managed Service Accounts, and related.-->
 
