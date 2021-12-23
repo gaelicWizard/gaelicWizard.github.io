@@ -60,7 +60,7 @@ Experienced systems architect seeking forward-looking position to drive adoption
 
 ## Skills
 {% assign skills = site.tags | concat: site.certifications | concat: site.jobs | concat: site.projects | map: 'tags' | sort | uniq %}
-<ul class="inline">
+<ul class="plist">
   {% for skill in skills %}
     <li>{{ skill }}</li>
   {% endfor %}

@@ -1,22 +1,22 @@
 # Use commas for inline-lists
 
-ul.inline {
-  display: inline;
+ul.plist {
+  display: inline-block;
 }
 
-ul.inline > li {
-  display: inline-block;
+ul.plist > li {
+  display: inline;
   white-space: nowrap;
 }
 
-ul.inline > li::after {
+ul.plist > li::after {
   content: ",";
 }
 
-ul.inline > li:last-child::before {
+ul.plist > li:last-child::before {
   content: "and ";
 }
 
-ul.inline > li:last-child::after {
+ul.plist > li:last-child::after {
   content: ".";
 }
