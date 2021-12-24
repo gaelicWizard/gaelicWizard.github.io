@@ -52,13 +52,13 @@ title: Résumé
       </li>
 
     {% endfor %}
-    </ul>
+      </ul>
     </li>
   {% endfor %}
 </ul>
 
 ## Skills
-{% assign skills = site.tags | concat: site.certifications | concat: site.jobs | concat: site.projects | map: 'tags' | sort | uniq %}
+{% assign skills = site.tags | concat: site.certifications | concat: site.jobs | concat: site.projects | map: 'tags' | uniq | sort %}
 <ul class="plist">
   {% for skill in skills %}
     <li>{{ skill }}</li>
