@@ -1,5 +1,6 @@
 ---
 title: Résumé
+layout: about
 ---
 
 {% assign about_me = site.pages | where:"name","about.md" | first %}

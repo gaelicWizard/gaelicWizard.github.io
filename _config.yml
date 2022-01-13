@@ -35,7 +35,10 @@ collections:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-time-machine
+#theme: jekyll-theme-time-machine
+#remote_theme: ankitsultana/researcher@gem
+#remote_theme: kssim/ap
+remote_theme: gaelicWizard/ap
 plugins:
 #  - jekyll-feed
 
