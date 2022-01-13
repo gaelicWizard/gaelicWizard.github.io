@@ -28,6 +28,10 @@ collections:
     sort_by: date
   certifications:
     sort_by: date
+  prospects:
+    sort_by: date
+    output: true
+    permalink: /:name
 
 # Build settings
 markdown: kramdown
