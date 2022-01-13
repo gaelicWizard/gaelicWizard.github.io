@@ -3,7 +3,7 @@ title: About Me
 permalink: /about
 date: 1984-11-19 12:00:00 -0800
 tags:
- - Modern Device Management
+ - Information Services & Technology
 ---
 Experienced systems architect seeking forward-looking position to drive adoption of modern information systems in identity management, server deployment, and device configuration. I believe strongly that the best operations teams are always in motion building small improvements at all levels; stasis breeds complacency and leads to decay. 
 
