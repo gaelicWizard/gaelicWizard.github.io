@@ -12,7 +12,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdp.cx" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gaelicWizard
 github_username:  gaelicWizard
-linkedin_username: gaelicWizard
+social:
+  email: true
+  linkedin: https://linkedin.com/in/gaelicWizard
 google_analytics: G-3B8KRF0H7B
 microsoft_mcid: 16599973
 vmware_certifee: VMW-01381449L-00454924
