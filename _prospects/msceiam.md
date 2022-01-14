@@ -2,13 +2,10 @@
 layout: prospect
 company: Microsoft
 title: Customer Engineer, Identity and Access Management
+contactx:
+ - name: 
+ - email: 
 ---
-
-<!-- my contact info; float right -->
-<!-- their contact info; float left -->
-<!--  -->
-
-Dear {{ page.recipient | default: "Hiring Manager" }},
 
 The challenges of raising a family while delivering unmatched customer service *and* operating the business has taught me several valuable lessons, not least of which is that my employees should be positioned where they can excel and shielded from distraction and interference. Upon deciding that one of these commitments needed to go, I was thrilled to find the post on LinkedIn for {{ page.title }}. The opportunity to continue to deliver first-class integrated Microsoft-based solutions, without the cost to my family that came with owning a business, is simply too exciting to pass up!
 
@@ -18,9 +15,3 @@ I have long evangelized the principle that identity is the core of information s
 - Complete rebuild and replacement of aging on-premises Active Directory with Hybrid AD+AAD and Microsoft 365 including Office 365 services as well as mobile device management, no-VPN remote medical workstations using Azure Application Proxy, and extensive Teams adoption including Microsoft Teams Voice integration with external telephony provider for a three-facility 200-employee radiology medical group
 
 I have lived and breathed information technology for over twenty years, with the past eight being specifically with Microsoft products, technologies, and services. I can't think of a better opportunity than to be able to deliver not only best-in-class technologies, but to be able to do so directly with the customers looking to Microsoft to design and support their architecture for maximum value.
-
-Thank you for taking the time to look at my resume and I hope we can connect soon!
-
-Sincerely,
-John Pell
-

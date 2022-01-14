@@ -1,17 +1,25 @@
 ---
-layout: default
+layout: post
 ---
-<section class="post">
-  <h2 class="post-title">{{ page.title }}</h2>
-  <hr class="post-line"/>
-  <nav class="social-layer">
-    <div class="social-icons">
-      <ul>
-        {% include social.html %}
-      </ul>
-    </div>
-  </nav>
+<nav class="social-layer">
+  <div class="social-icons">
+    <ul>
+      {% include social.html %}
+    </ul>
+  </div>
+</nav>
+
+<!-- my contact info; float right -->
+<!-- their contact info; float left -->
+<!--  -->
+
+<p>Dear {{ page.contact.name | default: "Hiring Manager" }},</p>
 
   {{ content }}
+
+<p>Thank you for taking the time to review my resume and I hope we can connect soon!</p>
+
+<p>Sincerely,
+	{{ page.author | default: site.author.name | default: site.author }}</p>
 
 </section>
