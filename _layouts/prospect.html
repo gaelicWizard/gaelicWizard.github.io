@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+  <hr class="post-line"/>
+  <nav class="social-layer">
+    <div class="social-icons">
+      <ul>
+        {% include social.html %}
+      </ul>
+    </div>
+  </nav>
+
+  {{ content }}
+
+</section>
