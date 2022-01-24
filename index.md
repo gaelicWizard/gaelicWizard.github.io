@@ -19,19 +19,11 @@ layout: about
 
 ## Education
 <ul>
-{% for institution in site.degrees reversed %}
-  <li>
-    <h3 id="{{ institution.institution | slugify }}"><a href="{{ institution.link }}">{{ institution.institution }}</a></h3>
-    <ul>
 {% for degree in site.degrees reversed %}
-{% if degree.institution contains institution.institution %}
-      <li id="{{ degree.slug }}">
-      <a href="{{ degree.detailLink }}">{{ degree.title }}</a>, <time datetime="{{ degree.date }}">{{ degree.date | date: "%Y" }}</time>
-      {{ degree.excerpt }}
-      </li>
-{% endif %}
-{% endfor %}
-    </ul>
+  <li id="{{ degree.slug }}">
+    <h3 id="{{ degree.institution | slugify }}"><a href="{{ degree.link }}">{{ degree.institution }}</a></h3>
+    <a href="{{ degree.detailLink }}">{{ degree.title }}</a>, <time datetime="{{ degree.date }}">{{ degree.date | date: "%Y" }}</time>
+    {{ degree.excerpt }}
   </li>
 {% endfor %}
 </ul>
