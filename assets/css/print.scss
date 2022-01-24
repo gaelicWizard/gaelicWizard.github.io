@@ -16,10 +16,18 @@
 		page-break-inside: avoid;
 	}
 
-	table, figure {
+	table, figure, li {
 		page-break-inside: avoid;
 	}
 
+	h1, h2, h3, h4, h5, ul, ol, li, p {
+		margin-block-end: 0;
+		margin-block-start: 0;
+	}
+
+	header, footer, .social-layer {
+		display: none;
+	}
 }
 
 html {
