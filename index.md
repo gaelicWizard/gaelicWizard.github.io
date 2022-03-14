@@ -30,19 +30,19 @@ layout: about
 
 ## Certifications
 {% assign certifiers = site.certifications | map: 'certifier' | uniq %}
-<ul>
+{% if certifiers | size > 1 %}
+<ul class="plist">
 {% for certifier in certifiers %}
-  <li>
-    <h3 id="{{ certifier | slugify }}">{{ certifier }}</h3>
-    <ul>
-{% for certificate in site.certifications reversed | where: 'certifier', certifier %}
+    <li id="{{ certifier | slugify }}">{{ certifier }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+<ul>
+{% for certificate in site.certifications reversed %}
       <li id="{{ certificate.slug }}">
       <a href="{{ certificate.link }}">{{ certificate.track }}: {{ certificate.title }}</a> <a href="{{ certificate.detailLink }}">{{ certificate.level | capitalize }}, <time datetime="{{ certificate.date }}">{{ certificate.date | date: "%Y" }}</time></a>
       {{ certificate.excerpt }}
       </li>
-{% endfor %}
-    </ul>
-  </li>
 {% endfor %}
 </ul>
 
