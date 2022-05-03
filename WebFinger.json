@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /.well-known/webfinger/
+---
+{	"subject" : "acct:john@gaelicWizard.net",
+	"aliases" : [
+		"https://jdp.cx",
+		"https://gaelicWizard.me",
+		"https://j.gaelicWizard.net"
+	],
+	"links" : [{
+		"rel" : "self",
+		"type" : "application/activity+json",
+		"href" : "https://jdp.cx/activitypub"
+	}]
+}
