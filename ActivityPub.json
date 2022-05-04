@@ -6,7 +6,7 @@ permalink: /activitypub/
 	"id" : "https://micro.blog/activitypub/gaelicWizard",
 	"name" : "John D Pell",
 	"preferredUsername" : "gaelicWizard",
-	"summary": "I Fight Entropy™",
+	"summary": "I Fight Entropy",
 	"type" : "Person",
 	"inbox" : "https://micro.blog/activitypub/gaelicWizard/inbox",
 	"outbox" : "https://micro.blog/activitypub/gaelicWizard/outbox",
