@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /activitypub/
+---
+{	"@context" : "https://www.w3.org/ns/activitystreams",
+	"id" : "https://jdp.cx/activitypub",
+	"name" : "John D Pell",
+	"preferredUsername" : "gaelicWizard",
+	"type" : "Person",
+	"inbox" : "https://micro.blog/activitypub/gaelicWizard/inbox",
+	"outbox" : "https://micro.blog/activitypub/gaelicWizard/outbox",
+	"followers" : "https://micro.blog/activitypub/gaelicWizard/followers",
+	"icon" : {
+		"mediaType" : "image/jpeg",
+		"type" : "Image",
+		"url" : "https://micro.blog/gaelicWizard/avatar.jpg"
+	},
+	"attachment" : [{
+		"name" : "Feed",
+		"type" : "PropertyValue",
+		"value" : "<a href=\"https://gaelicWizard.me/\">gaelicWizard.me</a>"
+	}],
+	"publicKey" : {
+		"id" : "https://micro.blog/activitypub/gaelicWizard#key",
+		"owner" : "https://jdp.cx/activitypub",
+		"publicKeyPem" : "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAugqmRSnqziEbMjJG4QDI\n3ZZSy3s8WhIqg7jut7FaIxIKj0YP56wB+ZiBs3ZXgbl99G2joMkEPclE9W2VlzoF\nfb1GISgyzB2uAEN2xoIwtDwJpcR7YTWbxnZrW/j7EzQrTUskgO4ZWk/7LaoYdPtv\nP4CSUOh/GSgYy/6RhU3AeJZyci5zT779LHT0Xh6UcXW9LKSAjo0chvR6srn10rI7\nWEhFoFkWDeQcQz4JxqwOqSuVZuc6mSSncqYlMPMenLfIDi85GT+gOyQ7iParc3Nc\nbLFnKpk3bgFcfdEud33C5qUjLCq0Ops7EMvrnBJV9NtHQXALSJ+VNRz9sZoF3uZp\nCQIDAQAB\n-----END PUBLIC KEY-----\n"
+	}
+}
