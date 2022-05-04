@@ -15,5 +15,9 @@ permalink: /.well-known/webfinger/
 		"rel" : "self",
 		"type" : "application/activity+json",
 		"href" : "https://jdp.cx/activitypub"
+	},
+	{
+		"rel" : "http://openid.net/specs/connect/1.0/issuer",
+		"href" : "https://accounts.google.com"
 	}]
 }
