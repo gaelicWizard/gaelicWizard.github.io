@@ -1,0 +1,8 @@
+---
+layout: null
+permalink: /.well-known/host-meta/
+---
+<?xml version="1.0"?>
+<XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+  <Link rel="lrdd" type="application/jrd+json" template="https://jdp.cx/.well-known/webfinger?resource={uri}"/>
+</XRD>
