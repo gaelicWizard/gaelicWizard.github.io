@@ -4,6 +4,7 @@ permalink: /.well-known/webfinger/
 ---
 {	"subject" : "acct:john@gaelicWizard.net",
 	"aliases" : [
+		"me@jdp.cx",
 		"https://jdp.cx",
 		"https://gaelicWizard.me",
 		"https://j.gaelicWizard.net",
