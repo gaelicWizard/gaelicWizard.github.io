@@ -4,11 +4,13 @@ permalink: /.well-known/webfinger/
 ---
 {	"subject" : "acct:john@gaelicWizard.net",
 	"aliases" : [
-		"me@jdp.cx",
+		"acct:me@jdp.cx",
 		"https://jdp.cx",
 		"https://gaelicWizard.me",
 		"https://j.gaelicWizard.net",
 		"https://jdp.cx/activitypub",
+		"https://gaelicWizard.net/activitypub/john",
+		"https://micro.blog/activitypub/gaelicWizard",
 		"https://solarpunks.social/@gaelicWizard",
 		"https://solarpunks.social/users/gaelicWizard"
 	],
