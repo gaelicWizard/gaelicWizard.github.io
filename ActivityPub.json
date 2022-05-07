@@ -9,6 +9,14 @@ permalink: /activitypub/
 	"summary": "I Fight Entropy™",
 	"url": "https://jdp.cx",
 	"type" : "Person",
+	"alsoKnownAs": [
+		"acct:john@gaelicWizard.net",
+		"acct:me@jdp.cx",
+		"https://jdp.cx/activitypub",
+		"https://solarpunks.social/users/gaelicWizard",
+		"acct:gaelicWizard@gaelicWizard.net",
+		"https://micro.blog/activitypub/gaelicWizard"
+	],
 	"inbox" : "https://micro.blog/activitypub/gaelicWizard/inbox",
 	"outbox" : "https://micro.blog/activitypub/gaelicWizard/outbox",
 	"followers" : "https://micro.blog/activitypub/gaelicWizard/followers",
