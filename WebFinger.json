@@ -5,19 +5,24 @@ permalink: /.well-known/webfinger/
 {	"subject" : "acct:john@gaelicWizard.net",
 	"aliases" : [
 		"acct:me@jdp.cx",
+		"acct:gaelicWizard@gaelicWizard.net",
+		"acct:gaelicWizard.net",
+		"acct:gaelicWizard.me",
 		"https://jdp.cx",
 		"https://gaelicWizard.me",
 		"https://j.gaelicWizard.net",
 		"https://jdp.cx/activitypub",
-		"https://gaelicWizard.net/activitypub/john",
-		"https://micro.blog/activitypub/gaelicWizard",
-		"https://solarpunks.social/@gaelicWizard",
-		"https://solarpunks.social/users/gaelicWizard"
+		"https://gaelicWizard.net/activitypub/john"
 	],
 	"links" : [{
 		"rel" : "self",
 		"type" : "application/activity+json",
 		"href" : "https://jdp.cx/activitypub"
+	},
+	{
+		"rel": "inbox",
+		"type": "application/activity+json",
+		"href": "https://micro.blog/activitypub/gaelicWizard/inbox"
 	},
 	{
 		"rel" : "http://openid.net/specs/connect/1.0/issuer",
