@@ -12,6 +12,7 @@ permalink: /.well-known/webfinger/
 		"https://gaelicWizard.me",
 		"https://j.gaelicWizard.net",
 		"https://jdp.cx/activitypub",
+		"https://gaelicwizard.net/activitypub/john",
 		"https://gaelicWizard.net/activitypub/john"
 	],
 	"links" : [{
