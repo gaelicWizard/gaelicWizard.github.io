@@ -6,6 +6,7 @@ title: Installation Engineer
 link: https://oblong.com
 detailLink: https://oblong.com/mezzanine
 tags: collaboration
+location: 923 E 3rd St, Los Angeles, CA 90013
 
 description: Oblong is a startup based in Los Angeles, CA specializing in physical-space tracking systems and the software spatial operating environments to take advantage of this unique input method. The company underwent a round of layoffs in October of 2012.
 ---
