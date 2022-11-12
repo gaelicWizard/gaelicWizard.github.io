@@ -28,5 +28,9 @@ permalink: /.well-known/webfinger/
 	{
 		"rel" : "http://openid.net/specs/connect/1.0/issuer",
 		"href" : "https://accounts.google.com"
-	}]
+	},
+	{
+		"rel": "http://ostatus.org/schema/1.0/subscribe",
+		"template": "https://micro.blog/discover/search?q={uri}"
+    }]
 }
