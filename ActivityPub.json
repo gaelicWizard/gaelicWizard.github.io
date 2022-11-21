@@ -3,7 +3,7 @@ layout: null
 permalink: /activitypub/
 ---
 {	"@context" : "https://www.w3.org/ns/activitystreams",
-	"id" : "https://gaelicwizard.net/activitypub/john",
+	"id" : "https://gaelicWizard.net/activitypub/john",
 	"name" : "John D Pell",
 	"preferredUsername" : "john",
 	"summary": "I Fight Entropy™",
