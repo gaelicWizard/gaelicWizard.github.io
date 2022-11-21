@@ -21,6 +21,11 @@ permalink: /.well-known/webfinger/
 		"href" : "https://gaelicWizard.net/activitypub/john"
 	},
 	{
+		"href" : "https://gaelicWizard.me",
+		"rel" : "http://webfinger.net/rel/profile-page",
+		"type" : "text/html"
+	},
+	{
 		"rel": "inbox",
 		"type": "application/activity+json",
 		"href": "https://micro.blog/activitypub/gaelicWizard/inbox"
