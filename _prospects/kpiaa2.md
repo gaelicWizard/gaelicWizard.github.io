@@ -7,6 +7,9 @@ link: http://www.kaiserpermanentejobs.org/job/pasadena/imaging-application-admin
 contact:
  name: 
  email: 
+tags: 
+ - PACS Administration
+ - radiology
 ---
 
 Throughout my career, I have contributed to impacting business outcomes through effective organization, prioritization, and execution of key projects. My skills and qualifications are an ideal match to the Imaging Application Administrator II requirements and will bring immediate value to Kaiser Permanente goals.
