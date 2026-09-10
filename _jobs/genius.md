@@ -6,7 +6,8 @@ title: Mac Genius
 link: https://apple.com
 detailLink: https://apple.com/retail/geniusbar
 description: Apple designs and sells Macs, iPods, iPhones, and iPads.
-tags: radiology cardiology
+tags: 
+ - retail
 ---
 Repair and user support for Apple devices: Mac, iPhone, &c.
 
