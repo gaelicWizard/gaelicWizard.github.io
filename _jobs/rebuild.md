@@ -52,6 +52,7 @@ tags:
  - SolidWorks PDM
  - ANSYS
  - Keysight
+ - Kubernetes
 ---
 As the principal systems engineer and architect, I designed and implemented an entirely new "green field" Microsoft 365 and Azure environment in Microsoft's "Government Community Cloud - High Impact" cloud, and integrated into the new environment over thirteen legacy environments with information systems initially implemented up to thirty years prior including migration, modernization, and maintenance across the board, and successfully achieved CMMC 2.0 Level 2 certification. As the final point of escalation for technical issues, I worked with a variety of technologies across the spectrum from CAD and CAM to fluid simulation to electrical circuit design to high-frequency simulation. 
 
