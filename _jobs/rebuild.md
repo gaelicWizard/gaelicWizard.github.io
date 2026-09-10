@@ -28,6 +28,11 @@ tags:
  - Microsoft Teams
  - Teams Room Systems
  - Azure Virtual WAN
+ - Purview
+ - eDiscovery
+ - Microsoft Defender for Endpoint+Cloud+Servers+XDR+Identity
+ - Microsoft Sentinel
+ - Data Loss Prevention
  - SD-WAN
  - Fortinet
  - FortiGate
@@ -44,5 +49,10 @@ tags:
  - GovCloud
  - Terraform
  - OpenTofu
+ - SolidWorks PDM
+ - ANSYS
+ - Keysight
 ---
+As the principal systems architect, I designed and implemented an entirely new "green field" Microsoft 365 and Azure environment in Microsoft's "Government Community Cloud - High Impact" cloud, and integrated into the new environment over thirteen legacy environments with information systems initially implemented up to thirty years prior including migration, modernization, and maintenance across the board. As the final point of escalation for technical issues, I worked with a variety of technologies across the spectrum from CAD and CAM to fluid simulation to electrical circuit design to high-frequency simulation. 
+
 > Machiavelli was wrong! Winning at all costs is not winning at all. At Re:Build we want to be as proud of the path taken as the result achieved.
