@@ -1,6 +1,6 @@
 ---
 date: 2012-05-14 09:00:00 -0800
-institution: Roger William University, School of Law
+institution: Roger Williams University, School of Law
 title: Juris Doctor
 link: https://law.rwu.edu
 detailLink: https://law.rwu.edu/academics/juris-doctor
