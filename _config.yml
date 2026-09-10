@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Enterprise security is simply operational excellence in action.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdp.cx" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gaelicWizard
+#twitter_username: gaelicWizard
 github_username:  gaelicWizard
 social:
   email: true
