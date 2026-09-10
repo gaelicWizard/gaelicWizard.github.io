@@ -41,6 +41,8 @@ tags:
  - BGP
  - Google Workspace
  - Amazon Web Services
+ - GovCloud
  - Terraform
+ - OpenTofu
 ---
 > Machiavelli was wrong! Winning at all costs is not winning at all. At Re:Build we want to be as proud of the path taken as the result achieved.
